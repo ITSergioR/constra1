@@ -1568,7 +1568,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   padding: 20px 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-}
+  background-color: rgba(49, 44, 44, 0.226);
+  position: relative;
+  z-index: 2;
+  color: #fff;
+   background-color: rgba(0, 0, 0, 0.4);
+
+  }
 
 .row-tell-us{
   display: flex;
@@ -3655,6 +3661,10 @@ label {
   right: 50px;
   max-width: 400px;
   
+
+
+  
+  
   
 }
 
@@ -3716,3 +3726,6 @@ label {
 }
 
 
+textarea.form-control {
+  height: 140px;
+}
